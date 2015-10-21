@@ -8,9 +8,9 @@ PHASE 1
 
 
 PHASE 2
-	- Visit each URL to identify if it is dead/deprecated/broken.
-	- Strip out invalid links and only add valid links.
-	- Leverage or extend the following code snippet
-	    t = lxml.html.parse(url)
-	    print t.find(".//title").text
+  - Visit each URL to identify if it is dead/deprecated/broken.
+  - Strip out invalid links and only add valid links.
+  - Leverage or extend the following code snippet
+    # t = lxml.html.parse(url)
+    # print t.find(".//title").text
 
